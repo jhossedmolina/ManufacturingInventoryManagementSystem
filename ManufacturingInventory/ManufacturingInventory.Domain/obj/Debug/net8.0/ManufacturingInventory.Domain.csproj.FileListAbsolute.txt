@@ -1,0 +1,12 @@
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\bin\Debug\net8.0\ManufacturingInventory.Domain.deps.json
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\bin\Debug\net8.0\ManufacturingInventory.Domain.dll
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\bin\Debug\net8.0\ManufacturingInventory.Domain.pdb
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\obj\Debug\net8.0\ManufacturingInventory.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\obj\Debug\net8.0\ManufacturingInventory.Domain.AssemblyInfoInputs.cache
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\obj\Debug\net8.0\ManufacturingInventory.Domain.AssemblyInfo.cs
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\obj\Debug\net8.0\ManufacturingInventory.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\obj\Debug\net8.0\ManufacturingInventory.Domain.sourcelink.json
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\obj\Debug\net8.0\ManufacturingInventory.Domain.dll
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\obj\Debug\net8.0\refint\ManufacturingInventory.Domain.dll
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\obj\Debug\net8.0\ManufacturingInventory.Domain.pdb
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.Domain\obj\Debug\net8.0\ref\ManufacturingInventory.Domain.dll
