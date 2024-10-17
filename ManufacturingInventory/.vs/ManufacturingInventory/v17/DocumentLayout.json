@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\validators\\productdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|solutionrelative:manufacturinginventory.infraestructure\\validators\\productdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7555EDA5-E56A-4717-9253-0CE3C929CF14}|ManufacturingInventory.API\\ManufacturingInventory.API.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7555EDA5-E56A-4717-9253-0CE3C929CF14}|ManufacturingInventory.API\\ManufacturingInventory.API.csproj|solutionrelative:manufacturinginventory.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.webassembly\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|solutionrelative:manufacturinginventory.webassembly\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.webassembly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|solutionrelative:manufacturinginventory.webassembly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7555EDA5-E56A-4717-9253-0CE3C929CF14}|ManufacturingInventory.API\\ManufacturingInventory.API.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7555EDA5-E56A-4717-9253-0CE3C929CF14}|ManufacturingInventory.API\\ManufacturingInventory.API.csproj|solutionrelative:manufacturinginventory.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\validators\\productdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|solutionrelative:manufacturinginventory.infraestructure\\validators\\productdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\validators\\applicationuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,19 +79,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ManufacturingInventory.WebAssembly\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-17T22:28:49.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Program.cs",
+              "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\Program.cs",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Program.cs",
+              "RelativeToolTip": "ManufacturingInventory.WebAssembly\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T22:28:13.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ManufacturingInventory.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ManufacturingInventory.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-17T22:22:46.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Program.cs",
               "RelativeDocumentMoniker": "ManufacturingInventory.API\\Program.cs",
               "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Program.cs",
               "RelativeToolTip": "ManufacturingInventory.API\\Program.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T22:03:50.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ApplicationUserDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Validators\\ApplicationUserDtoValidator.cs",
               "RelativeDocumentMoniker": "ManufacturingInventory.Infraestructure\\Validators\\ApplicationUserDtoValidator.cs",
@@ -87,12 +138,11 @@
               "RelativeToolTip": "ManufacturingInventory.Infraestructure\\Validators\\ApplicationUserDtoValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:57:27.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:57:27.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Validators\\ProductDtoValidator.cs",
               "RelativeDocumentMoniker": "ManufacturingInventory.Infraestructure\\Validators\\ProductDtoValidator.cs",
@@ -105,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\DTOs\\ProductDto.cs",
               "RelativeDocumentMoniker": "ManufacturingInventory.Application\\DTOs\\ProductDto.cs",
@@ -113,12 +163,11 @@
               "RelativeToolTip": "ManufacturingInventory.Application\\DTOs\\ProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:56:48.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:56:48.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IProductHttpService.cs",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Interfaces\\IProductHttpService.cs",
               "RelativeDocumentMoniker": "ManufacturingInventory.Application\\Interfaces\\IProductHttpService.cs",
@@ -126,12 +175,11 @@
               "RelativeToolTip": "ManufacturingInventory.Application\\Interfaces\\IProductHttpService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:47:38.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:47:38.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ProductHttpService.cs",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Services\\ProductHttpService.cs",
               "RelativeDocumentMoniker": "ManufacturingInventory.Application\\Services\\ProductHttpService.cs",
@@ -139,12 +187,11 @@
               "RelativeToolTip": "ManufacturingInventory.Application\\Services\\ProductHttpService.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:47:19.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:47:19.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ManufacturingInventory.API\\Controllers\\ProductController.cs",
@@ -152,12 +199,11 @@
               "RelativeToolTip": "ManufacturingInventory.API\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T21:39:00.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:39:00.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\Layout\\MainLayout.razor",
@@ -165,12 +211,11 @@
               "RelativeToolTip": "ManufacturingInventory.WebAssembly\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T21:36:52.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:36:52.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\_Imports.razor",
               "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\_Imports.razor",
@@ -178,12 +223,11 @@
               "RelativeToolTip": "ManufacturingInventory.WebAssembly\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T21:34:24.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:34:24.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\Layout\\NavMenu.razor",
@@ -191,12 +235,11 @@
               "RelativeToolTip": "ManufacturingInventory.WebAssembly\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T21:22:09.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:22:09.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Pages\\Products\\Index.razor",
               "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\Pages\\Products\\Index.razor",
@@ -204,12 +247,11 @@
               "RelativeToolTip": "ManufacturingInventory.WebAssembly\\Pages\\Products\\Index.razor",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAEMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T21:18:43.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:18:43.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AddProduct.razor",
               "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Pages\\Products\\AddProduct.razor",
               "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\Pages\\Products\\AddProduct.razor",
@@ -217,8 +259,7 @@
               "RelativeToolTip": "ManufacturingInventory.WebAssembly\\Pages\\Products\\AddProduct.razor",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAFgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T21:18:29.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T21:18:29.394Z"
             }
           ]
         }

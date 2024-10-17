@@ -15,9 +15,62 @@ Una empresa de manufactura gestiona productos terminados en su bodega, preparán
 - **Backend**: .NET 8
 - **Base de Datos**: SQL Server 2022
 
+## Arquitectura Utilizada
+
+Clean Architecture
+
 ## Clone
 
 git clone https://github.com/jhossedmolina/ManufacturingInventoryManagementSystem.git
+
+## Instalación del Proyecto Web API
+
+Paso 1: Clonar el repositorio
+
+
+Paso 3: Restaurar dependencias
+
+
+Navega a la carpeta del proyecto ManufacturingInventory.API y ejecuta el comando para restaurar los paquetes NuGet:
+
+
+
+cd ManufacturingInventory.API
+
+
+dotnet restore
+
+
+Paso 4: Configurar la base de datos
+
+
+Configurar la cadena de conexión en el archivo appsettings.json dentro de la carpeta principal del proyecto
+
+
+Paso 5: Ejecutar la API 
+
+
+dotnet run
+
+https://localhost:7097/swagger/index.html
+
+## Instalación del Proyecto Blazor
+
+Paso 1: Restaurar dependencias
+
+
+Navega a la carpeta del proyecto ManufacturingInventory.WebAssembly y ejecuta el comando para restaurar los paquetes NuGet:
+
+
+cd ManufacturingInventory.WebAssembly
+
+
+dotnet restore
+
+Paso 2: Ejecutar el Proyecto Blazor
+
+
+dotnet run
 
 ## Documentación de Endpoints
 

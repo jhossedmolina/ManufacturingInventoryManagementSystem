@@ -92,7 +92,13 @@ builder.Services.AddScoped<IValidator<ApplicationUserDto>, ApplicationUserDtoVal
 builder.Services.AddScoped<IValidator<ProductDto>, ProductDtoValidator>();
 builder.Services.AddScoped<IValidator<LoginDto>, LoginDtoValidator>();
 
-
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenLocalhost(7097, listenOptions =>
+    {
+        listenOptions.UseHttps(); 
+    });
+});
 
 
 var app = builder.Build();
@@ -104,7 +110,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     app.UseCors(policy =>
     {
-        policy.WithOrigins("https://localhost:7074")
+        policy.WithOrigins("https://localhost:7074", "http://localhost:5030")
         .AllowAnyMethod()
         .AllowAnyHeader()
         .WithHeaders(HeaderNames.ContentType);
