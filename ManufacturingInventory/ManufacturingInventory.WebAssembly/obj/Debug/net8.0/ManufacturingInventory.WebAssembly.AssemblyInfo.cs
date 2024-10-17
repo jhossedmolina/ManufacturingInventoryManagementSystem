@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManufacturingInventory.WebAssembly")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+498c42680f303139d0293adb0d75d33793c006fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27ed99aff81c66c3b3b55da8dc5367ad98fc63e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManufacturingInventory.WebAssembly")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManufacturingInventory.WebAssembly")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

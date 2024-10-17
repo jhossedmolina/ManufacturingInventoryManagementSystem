@@ -1,5 +1,6 @@
 ﻿@using System.Net.Http
 @using System.Net.Http.Json
+@using Blazored.LocalStorage
 @using ManufacturingInventory.Application.Interfaces
 @using Microsoft.AspNetCore.Components.Authorization
 @using Microsoft.AspNetCore.Components.Forms
@@ -11,6 +12,11 @@
 @using ManufacturingInventory.WebAssembly
 @using ManufacturingInventory.WebAssembly.Layout
 @using ManufacturingInventory.Domain.Entities
+@using ManufacturingInventory.Application.DTOs
+@using ManufacturingInventory.Application.Enums
 @inject IAccountService AccountService
+@inject IProductHttpService ProductHttpService
 @inject AuthenticationStateProvider AuthStateProvider
 @inject NavigationManager NavManager
+@inject IJSRuntime JSRuntime
+@inject ILocalStorageService LocalStorage

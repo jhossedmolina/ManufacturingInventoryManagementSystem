@@ -1,39 +1,99 @@
-﻿@page "/Products"
-@inject HttpClient http
+﻿@page "/product-list"
+@using ManufacturingInventory.Application.DTOs
 
-<h3>Productos</h3>
+<AuthorizeView>
+    <Authorized>
+        <h3>Productos</h3>
 
-@if(products == null)
-{
-    <text>Cargando Datos!...</text>
-} else if (products.Length == 0)
-{
-    <text>No Hay Productos Para Mostrar</text>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Nombre Del Producto</th>
-                <th>Tipo De Elaboración</th>
-                <th>Estado Del Producto</th>
-            </tr>
-        </thead>
-    </table>
-}
+        @if (products != null && products.Any())
+        {
+            @if (!string.IsNullOrEmpty(Message))
+            {
+                <div class="alert alert-info">
+                    @Message
+                </div>
+            }
+            <div class="table-responsive">
+                <table class="table table-striped table-hover shadow-sm">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Tipo de Producción</th>
+                            <th>Estado</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var producto in products)
+                        {
+                            <tr>
+                                <td>@producto.Id</td>
+                                <td>@producto.Name</td>
+                                <td>@producto.ProductionType</td>
+                                <td>@producto.Status</td>
+                                <td>
+                                    <button class="btn btn-danger btn-sm" @onclick="() => DeleteProduct(producto.Id)">
+                                        <i class="bi bi-trash"></i> Eliminar
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-warning">
+                <strong>Información:</strong> No hay productos disponibles.
+            </div>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <div class="alert alert-danger text-center">
+            <strong>Acceso Denegado:</strong> Debes iniciar sesión para acceder a esta página.
+        </div>
+    </NotAuthorized>
+</AuthorizeView>
+
+
 
 @code {
-    Product[] products { get; set; }
-
-    /*protected override OnInitAs
+    string? Message = string.Empty;
+    string token = string.Empty;
+    private IEnumerable<ProductDtoResponse> products;
+    protected override async Task OnInitializedAsync()
     {
-        await GetAllProducts();
+        token = await LocalStorage.GetItemAsStringAsync("auth");
+        var response = await ProductHttpService.GetAllProducts(token);
+        products = response.Data;
     }
 
-    async Task GetAllProducts()
+    private async Task LoadProducts()
     {
-        products = await http.GetFromJsonAsync<Product[]>("product");
-    }*/
+        token = await LocalStorage.GetItemAsStringAsync("auth");
+        var response = await ProductHttpService.GetAllProducts(token);
+        products = response.Data;
+    }
+
+    private async Task DeleteProduct(int id)
+    {
+        token = await LocalStorage.GetItemAsStringAsync("auth");
+        var confirmacion = await JSRuntime.InvokeAsync<bool>("confirm", $"¿Estás seguro que deseas eliminar el producto con ID {id}?");
+        if (confirmacion)
+        {
+            var response = await ProductHttpService.DeleteProduct(token, id);
+
+            if (response)
+            {
+                Message = $"Producto con ID {id} eliminado correctamente.";
+                await LoadProducts();
+            }
+            else
+            {
+                Message = $"No se pudo eliminar el producto con ID {id}.";
+            }
+        }
+    }
 }

@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ManufacturingInventory.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductController : ControllerBase

@@ -1,6 +1,49 @@
 ﻿@page "/register"
+@layout RegisterLayout
 @using ManufacturingInventory.Application.DTOs
-<h3>Registrarse</h3>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="card-title text-center">Registro de Usuario</h3>
+                </div>
+                <div class="card-body">
+                    @if (!string.IsNullOrEmpty(Message))
+                    {
+                        <div class="alert alert-info">
+                            @Message
+                        </div>
+                    }
+                    <EditForm Model="RegisterModel" OnValidSubmit="RegisterUserAsync">
+                        <DataAnnotationsValidator />
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <InputText id="name" class="form-control" @bind-Value="RegisterModel.Name" placeholder="Ingresa tu nombre" />
+                            <ValidationMessage For="@(() => RegisterModel.Name)" class="text-danger" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <InputText id="email" class="form-control" @bind-Value="RegisterModel.Email" placeholder="Ingresa tu correo electrónico" />
+                            <ValidationMessage For="@(() => RegisterModel.Email)" class="text-danger" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <InputText id="password" type="password" class="form-control" @bind-Value="RegisterModel.Password" placeholder="Introduce una contraseña segura" />
+                            <ValidationMessage For="@(() => RegisterModel.Password)" class="text-danger" />
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">Registrarse</button>
+                    </EditForm>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 @code {
     string? Message = string.Empty;
@@ -14,8 +57,8 @@
         applicationUser.Password = RegisterModel.Password;
 
         var result = await AccountService.RegisterUserAsync(applicationUser);
-        if (!result.Flag)
-            NavManager.NavigateTo("login", forceLoad: true);
+        if (result.Flag)
+            NavManager.NavigateTo("/", forceLoad: true);
         else
             Message = result.Message;
     }

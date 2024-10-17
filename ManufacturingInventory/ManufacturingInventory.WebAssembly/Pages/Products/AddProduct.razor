@@ -1,0 +1,105 @@
+﻿@page "/add-product"
+
+<AuthorizeView>
+    <Authorized>
+        @if (saving)
+        {
+            <div class="alert alert-warning text-center">
+                <strong>Información:</strong> Guardando producto...
+            </div>
+        }
+        else
+        {
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        @if (!string.IsNullOrEmpty(Message))
+                        {
+                            <div class="alert alert-info">
+                                @Message
+                            </div>
+                        }
+
+                        <EditForm Model="product" OnValidSubmit="SendForm" class="p-4 border rounded bg-white shadow-sm" Context="editContext">
+                            <h2 class="text-center mb-4">Agregar Producto</h2>
+                            <DataAnnotationsValidator />
+                            <ValidationSummary class="text-danger mb-3" />
+
+                            <div class="mb-4">
+                                <label for="name" class="form-label fw-bold">Nombre del Producto</label>
+                                <InputText id="name" class="form-control form-control-lg" placeholder="Ingrese el nombre del producto" @bind-Value="product.Name" />
+                                <small class="form-text text-muted">Nombre del producto.</small>
+                                <ValidationMessage For="@(() => product.Name)" class="text-danger mt-1" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="productionType" class="form-label fw-bold">Tipo de Producción</label>
+                                <InputSelect id="productionType" class="form-select form-select-lg" @bind-Value="product.ProductionType">
+                                    <option value="" disabled>Seleccione el tipo de producción</option>
+                                    @foreach (var type in Enum.GetValues(typeof(ProductionType)))
+                                    {
+                                        <option value="@type">@type</option>
+                                    }
+                                </InputSelect>
+                                <small class="form-text text-muted">Especifique cómo se produce el producto.</small>
+                                <ValidationMessage For="@(() => product.ProductionType)" class="text-danger mt-1" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="status" class="form-label fw-bold">Estado del Producto</label>
+                                <InputSelect id="status" class="form-select form-select-lg" @bind-Value="product.Status">
+                                    <option value="" disabled>Seleccione el estado del producto</option>
+                                    @foreach (var status in Enum.GetValues(typeof(ProductStatus)))
+                                    {
+                                        <option value="@status">@status</option>
+                                    }
+                                </InputSelect>
+                                <small class="form-text text-muted">Indique el estado actual del producto en el inventario.</small>
+                                <ValidationMessage For="@(() => product.Status)" class="text-danger mt-1" />
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary btn-lg">Agregar Producto</button>
+                            </div>
+                        </EditForm>
+                    </div>
+                </div>
+            </div>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <div class="alert alert-danger text-center">
+            <strong>Acceso Denegado:</strong> Debes iniciar sesión para acceder a esta página.
+        </div>
+    </NotAuthorized>
+</AuthorizeView>
+    
+
+
+
+@code {
+    string? Message = string.Empty;
+    private ProductDto product = new ProductDto();
+    private bool saving = false;
+
+    private async Task SendForm()
+    {
+        saving = true;
+
+        string token = await LocalStorage.GetItemAsStringAsync("auth");
+        var result = await ProductHttpService.AddProducts(token, product);
+        var response = result.Data;
+
+        if (response is not null)
+        {
+            product = new ProductDto();
+            Message = "Producto agregado correctamente";
+        }
+        else
+        {
+            Message = "No se pudo agregar el producto";
+        }
+
+        saving = false;
+    }
+}

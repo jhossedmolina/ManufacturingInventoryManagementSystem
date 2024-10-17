@@ -3,64 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|solutionrelative:manufacturinginventory.infraestructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\validators\\productdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|solutionrelative:manufacturinginventory.infraestructure\\validators\\productdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|solutionrelative:manufacturinginventory.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7555EDA5-E56A-4717-9253-0CE3C929CF14}|ManufacturingInventory.API\\ManufacturingInventory.API.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7555EDA5-E56A-4717-9253-0CE3C929CF14}|ManufacturingInventory.API\\ManufacturingInventory.API.csproj|solutionrelative:manufacturinginventory.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|solutionrelative:manufacturinginventory.infraestructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\validators\\applicationuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|solutionrelative:manufacturinginventory.infraestructure\\validators\\applicationuserdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|solutionrelative:manufacturinginventory.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|solutionrelative:manufacturinginventory.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.webassembly\\pages\\products\\addproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|solutionrelative:manufacturinginventory.webassembly\\pages\\products\\addproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.webassembly\\pages\\products\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|solutionrelative:manufacturinginventory.webassembly\\pages\\products\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.application\\interfaces\\iproducthttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|solutionrelative:manufacturinginventory.application\\interfaces\\iproducthttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.application\\services\\producthttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|solutionrelative:manufacturinginventory.application\\services\\producthttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.webassembly\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|solutionrelative:manufacturinginventory.webassembly\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7555EDA5-E56A-4717-9253-0CE3C929CF14}|ManufacturingInventory.API\\ManufacturingInventory.API.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7555EDA5-E56A-4717-9253-0CE3C929CF14}|ManufacturingInventory.API\\ManufacturingInventory.API.csproj|solutionrelative:manufacturinginventory.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.application\\exceptions\\globalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|solutionrelative:manufacturinginventory.application\\exceptions\\globalexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.webassembly\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|solutionrelative:manufacturinginventory.webassembly\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\dataaccess\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|solutionrelative:manufacturinginventory.infraestructure\\dataaccess\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\dataaccess\\configurations\\applicationuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|solutionrelative:manufacturinginventory.infraestructure\\dataaccess\\configurations\\applicationuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E142D52C-2081-4E58-9FD9-3F38F309AFB1}|ManufacturingInventory.Domain\\ManufacturingInventory.Domain.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E142D52C-2081-4E58-9FD9-3F38F309AFB1}|ManufacturingInventory.Domain\\ManufacturingInventory.Domain.csproj|solutionrelative:manufacturinginventory.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7555EDA5-E56A-4717-9253-0CE3C929CF14}|ManufacturingInventory.API\\ManufacturingInventory.API.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7555EDA5-E56A-4717-9253-0CE3C929CF14}|ManufacturingInventory.API\\ManufacturingInventory.API.csproj|solutionrelative:manufacturinginventory.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|solutionrelative:manufacturinginventory.infraestructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|solutionrelative:manufacturinginventory.application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1687F0D-E567-42E2-B3F8-C062C37C69CA}|ManufacturingInventory.Application\\ManufacturingInventory.Application.csproj|solutionrelative:manufacturinginventory.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E142D52C-2081-4E58-9FD9-3F38F309AFB1}|ManufacturingInventory.Domain\\ManufacturingInventory.Domain.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E142D52C-2081-4E58-9FD9-3F38F309AFB1}|ManufacturingInventory.Domain\\ManufacturingInventory.Domain.csproj|solutionrelative:manufacturinginventory.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.infraestructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{338E6BDC-E1F6-48CD-B410-448C7EADC7FD}|ManufacturingInventory.Infraestructure\\ManufacturingInventory.Infraestructure.csproj|solutionrelative:manufacturinginventory.infraestructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|c:\\users\\jhoss\\documents\\portfolio\\techtest\\manufacturinginventorymanagementsystem\\manufacturinginventory\\manufacturinginventory.webassembly\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B3137F4-0E92-4805-9CF4-73B60EEAB929}|ManufacturingInventory.WebAssembly\\ManufacturingInventory.WebAssembly.csproj|solutionrelative:manufacturinginventory.webassembly\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,197 +66,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GlobalException.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Exceptions\\GlobalException.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Application\\Exceptions\\GlobalException.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Exceptions\\GlobalException.cs",
-              "RelativeToolTip": "ManufacturingInventory.Application\\Exceptions\\GlobalException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T17:45:28.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\appsettings.json",
-              "RelativeDocumentMoniker": "ManufacturingInventory.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\appsettings.json",
-              "RelativeToolTip": "ManufacturingInventory.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-17T16:36:48.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationUserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\DataAccess\\Configurations\\ApplicationUserConfiguration.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Infraestructure\\DataAccess\\Configurations\\ApplicationUserConfiguration.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\DataAccess\\Configurations\\ApplicationUserConfiguration.cs",
-              "RelativeToolTip": "ManufacturingInventory.Infraestructure\\DataAccess\\Configurations\\ApplicationUserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:36:25.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\DataAccess\\Configurations\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Infraestructure\\DataAccess\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\DataAccess\\Configurations\\ProductConfiguration.cs",
-              "RelativeToolTip": "ManufacturingInventory.Infraestructure\\DataAccess\\Configurations\\ProductConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:36:18.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "ManufacturingInventory.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:18:21.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Domain\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Domain\\Entities\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Domain\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "ManufacturingInventory.Domain\\Entities\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:18:10.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.API\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ManufacturingInventory.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAiwEkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:01:41.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Interfaces\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Application\\Interfaces\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Interfaces\\IGenericRepository.cs",
-              "RelativeToolTip": "ManufacturingInventory.Application\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T15:13:16.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Infraestructure\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "ManufacturingInventory.Infraestructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:54:24.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Application\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "ManufacturingInventory.Application\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:43:06.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "ManufacturingInventory.Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:34:31.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Infraestructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "ManufacturingInventory.Infraestructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:19:57.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Application\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "ManufacturingInventory.Application\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Program.cs",
+              "RelativeDocumentMoniker": "ManufacturingInventory.API\\Program.cs",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Program.cs",
+              "RelativeToolTip": "ManufacturingInventory.API\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:18:33.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Infraestructure\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "ManufacturingInventory.Infraestructure\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:18:13.575Z",
+              "WhenOpened": "2024-10-17T22:03:50.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "ManufacturingInventory.Infraestructure\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "ManufacturingInventory.Infraestructure\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCIAAAAMAAAAAAAAAA==",
+              "Title": "ApplicationUserDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Validators\\ApplicationUserDtoValidator.cs",
+              "RelativeDocumentMoniker": "ManufacturingInventory.Infraestructure\\Validators\\ApplicationUserDtoValidator.cs",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Validators\\ApplicationUserDtoValidator.cs",
+              "RelativeToolTip": "ManufacturingInventory.Infraestructure\\Validators\\ApplicationUserDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:11:22.601Z",
+              "WhenOpened": "2024-10-17T21:57:27.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Validators\\ProductDtoValidator.cs",
+              "RelativeDocumentMoniker": "ManufacturingInventory.Infraestructure\\Validators\\ProductDtoValidator.cs",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Infraestructure\\Validators\\ProductDtoValidator.cs",
+              "RelativeToolTip": "ManufacturingInventory.Infraestructure\\Validators\\ProductDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAACVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:57:01.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "ManufacturingInventory.Application\\DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "ManufacturingInventory.Application\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:56:48.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductHttpService.cs",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Interfaces\\IProductHttpService.cs",
+              "RelativeDocumentMoniker": "ManufacturingInventory.Application\\Interfaces\\IProductHttpService.cs",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Interfaces\\IProductHttpService.cs",
+              "RelativeToolTip": "ManufacturingInventory.Application\\Interfaces\\IProductHttpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:47:38.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductHttpService.cs",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Services\\ProductHttpService.cs",
+              "RelativeDocumentMoniker": "ManufacturingInventory.Application\\Services\\ProductHttpService.cs",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.Application\\Services\\ProductHttpService.cs",
+              "RelativeToolTip": "ManufacturingInventory.Application\\Services\\ProductHttpService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:47:19.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ManufacturingInventory.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ManufacturingInventory.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:39:00.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ManufacturingInventory.WebAssembly\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T21:36:52.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\_Imports.razor",
+              "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\_Imports.razor",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\_Imports.razor",
+              "RelativeToolTip": "ManufacturingInventory.WebAssembly\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T21:34:24.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ManufacturingInventory.WebAssembly\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T21:22:09.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Pages\\Products\\Index.razor",
+              "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\Pages\\Products\\Index.razor",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Pages\\Products\\Index.razor",
+              "RelativeToolTip": "ManufacturingInventory.WebAssembly\\Pages\\Products\\Index.razor",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T21:18:43.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddProduct.razor",
+              "DocumentMoniker": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Pages\\Products\\AddProduct.razor",
+              "RelativeDocumentMoniker": "ManufacturingInventory.WebAssembly\\Pages\\Products\\AddProduct.razor",
+              "ToolTip": "C:\\Users\\jhoss\\Documents\\Portfolio\\TechTest\\ManufacturingInventoryManagementSystem\\ManufacturingInventory\\ManufacturingInventory.WebAssembly\\Pages\\Products\\AddProduct.razor",
+              "RelativeToolTip": "ManufacturingInventory.WebAssembly\\Pages\\Products\\AddProduct.razor",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T21:18:29.394Z",
               "EditorCaption": ""
             }
           ]

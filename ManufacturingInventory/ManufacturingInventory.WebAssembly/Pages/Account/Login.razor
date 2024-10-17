@@ -22,7 +22,7 @@
             </div>
 
             <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
+                <label for="password" class="form-label">Contraseña</label>
                 <InputText id="password" @bind-Value="LoginModel.Password" type="password" class="form-control" placeholder="Ingrese su contraseña" />
                 <ValidationMessage For="@(() => LoginModel.Password)" class="text-danger" />
             </div>
@@ -49,7 +49,7 @@
         {
             var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
             await customAuthStateProvider.UpdateAuthenticationState(result.Token);
-            NavManager.NavigateTo("/Products", forceLoad: true);
+            NavManager.NavigateTo("/product-list", forceLoad: true);
         }
         else
         {

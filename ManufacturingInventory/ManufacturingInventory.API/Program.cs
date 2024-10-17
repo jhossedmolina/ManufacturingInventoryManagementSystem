@@ -89,6 +89,7 @@ builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddScoped<IValidator<ApplicationUserDto>, ApplicationUserDtoValidator>();
+builder.Services.AddScoped<IValidator<ProductDto>, ProductDtoValidator>();
 builder.Services.AddScoped<IValidator<LoginDto>, LoginDtoValidator>();
 
 

@@ -17,7 +17,7 @@ namespace ManufacturingInventory.Application.Services
 
         public IEnumerable<Product> GetAllProducts()
         {
-            return _unitOfWork.ProductRepository.GetAll();
+            return _unitOfWork.ProductRepository.GetAll().OrderBy(x => x.Status);
         }
 
         public List<Product> GetProductsByStatus(string status)
@@ -27,10 +27,6 @@ namespace ManufacturingInventory.Application.Services
 
         public async Task<Product> GetProductById(int id)
         {
-            var currentProduct = await GetProductById(id);
-            if (currentProduct is null)
-                throw new GlobalException($"No existe un producto con el Id {id}.");
-
             return await _unitOfWork.ProductRepository.GetById(id);
         }
 
