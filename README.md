@@ -86,14 +86,28 @@ dotnet run
 
 A continuación se presentan los endpoints disponibles en la API:
 
-### 1. Obtener Todos los Productos
+### 1. Registro
+
+**Endpoint**: api/User/Register
+
+
+**Descripción**: Registra un nuevo usuario para ser utilizado en la aplicación
+
+### 2. Login
+
+**Endpoint**: api/User/Login
+
+
+**Descripción**: Se utiliza para autenticarse y obtener el Token JWT. Debe ingresar un correo electronico y una contraseña creados previamente en el endpoint de Registro
+
+### 3. Obtener Todos los Productos
 
 **Endpoint**: api/Product/GetAllProducts
 
 
 **Descripción**: Obtiene la lista de todos los productos existentes en la base de datos.
 
-### 2. Obtener Productos por Estado
+### 4. Obtener Productos por Estado
 
 **Endpoint**: api/Product/GetProductsByStatus/{status}
 
@@ -111,14 +125,14 @@ A continuación se presentan los endpoints disponibles en la API:
 - **Defectuoso**
 - **Fuera De Stock**
 
-### 3. Obtener Producto por ID
+### 5. Obtener Producto por ID
 
 **Endpoint**: api/Product/GetProductById/{id}
 
 
 **Descripción**: Obtiene un producto específico por su ID.
 
-### 4. Agregar un Nuevo Producto
+### 6. Agregar un Nuevo Producto
 
 **Endpoint**: api/Product/AddProduct
 
@@ -142,14 +156,14 @@ A continuación se presentan los endpoints disponibles en la API:
 - **2 = Defectuoso**
 - **3 = Fuera De Stock**
 
-### 5. Marcar Producto como Defectuoso
+### 7. Marcar Producto como Defectuoso
 
 **Endpoint**: api/Product/MarkProductAsDefective
 
 
 **Descripción**: Recibe como parámetro el ID de un producto y actualiza su estado a defectuoso.
 
-### 6. Actualizar Información del Producto
+### 8. Actualizar Información del Producto
 
 **Endpoint**: api/Product/UpdateProduct
 
@@ -174,7 +188,7 @@ A continuación se presentan los endpoints disponibles en la API:
 - **2 = Defectuoso**
 - **3 = Fuera De Stock**
 
-### 7. Eliminar Producto
+### 9. Eliminar Producto
 
 **Endpoint**: api/Product/DeleteProduct/{id}
 
