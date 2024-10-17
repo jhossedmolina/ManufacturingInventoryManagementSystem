@@ -22,6 +22,8 @@ A continuación se presentan los endpoints disponibles en la API:
 
 ### 1. Obtener Todos los Productos
 **Endpoint**: api/Product/GetAllProducts
+
+
 **Descripción**: Obtiene la lista de todos los productos existentes en la base de datos.
 ### 2. Obtener Productos por Estado
 - **Endpoint: api/Product/GetProductsByStatus/{status}
