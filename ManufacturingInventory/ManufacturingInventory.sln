@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManufacturingInventory.Doma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManufacturingInventory.Application", "ManufacturingInventory.Application\ManufacturingInventory.Application.csproj", "{F1687F0D-E567-42E2-B3F8-C062C37C69CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManufacturingInventory.API", "ManufacturingInventory.API\ManufacturingInventory.API.csproj", "{7555EDA5-E56A-4717-9253-0CE3C929CF14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManufacturingInventory.API", "ManufacturingInventory.API\ManufacturingInventory.API.csproj", "{7555EDA5-E56A-4717-9253-0CE3C929CF14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManufacturingInventory.WebAssembly", "ManufacturingInventory.WebAssembly\ManufacturingInventory.WebAssembly.csproj", "{3B3137F4-0E92-4805-9CF4-73B60EEAB929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManufacturingInventory.WebAssembly", "ManufacturingInventory.WebAssembly\ManufacturingInventory.WebAssembly.csproj", "{3B3137F4-0E92-4805-9CF4-73B60EEAB929}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

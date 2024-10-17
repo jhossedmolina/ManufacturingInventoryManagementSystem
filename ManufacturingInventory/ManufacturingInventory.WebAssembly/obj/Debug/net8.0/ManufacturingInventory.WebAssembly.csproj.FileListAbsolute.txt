@@ -9,6 +9,10 @@ C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSyst
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\icudt_CJK.dat
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\icudt_no_CJK.dat
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.Application.pdb
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.Application.wasm
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.Domain.pdb
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.Domain.wasm
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.WebAssembly.pdb
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.WebAssembly.wasm
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.wasm
@@ -203,6 +207,7 @@ C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSyst
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XPath.XDocument.wasm
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\WindowsBase.wasm
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Loader.wasm.gz
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.Domain.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.IO.FileSystem.Watcher.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.AppContext.wasm.gz
@@ -238,6 +243,7 @@ C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSyst
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Text.Encoding.CodePages.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XDocument.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Net.Sockets.wasm.gz
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.Application.pdb.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Net.NetworkInformation.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.Debug.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\Microsoft.VisualBasic.Core.wasm.gz
@@ -247,6 +253,7 @@ C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSyst
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.WebAssembly.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Memory.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.wasm.gz
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.Application.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.IO.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Text.Encodings.Web.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Security.Cryptography.Csp.wasm.gz
@@ -322,6 +329,7 @@ C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSyst
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Buffers.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Net.Http.wasm.gz
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\ManufacturingInventory.Domain.pdb.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.ServiceModel.Web.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\System.Resources.Reader.wasm.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.wasm.gz
@@ -609,6 +617,10 @@ C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSyst
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\icudt_CJK.dat
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\icudt_EFIGS.dat
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\icudt_no_CJK.dat
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\ManufacturingInventory.Application.dll
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\ManufacturingInventory.Domain.dll
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\ManufacturingInventory.Application.pdb
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\bin\Debug\net8.0\ManufacturingInventory.Domain.pdb
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\ManufacturingInventory.WebAssembly.csproj.AssemblyReference.cache
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\ManufacturingInventory.WebAssembly.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\ManufacturingInventory.WebAssembly.AssemblyInfoInputs.cache
@@ -807,6 +819,8 @@ C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSyst
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\webcil\mscorlib.wasm
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\webcil\netstandard.wasm
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\webcil\System.Private.CoreLib.wasm
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\webcil\ManufacturingInventory.Application.wasm
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\webcil\ManufacturingInventory.Domain.wasm
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\webcil\ManufacturingInventory.WebAssembly.wasm
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\blazor.build.boot-extension.json
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\blazor.boot.json
@@ -1022,6 +1036,10 @@ C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSyst
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\compressed\u4ovu9m4u8.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\compressed\gnj67y7906.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\compressed\12d3s3ilyv.gz
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\compressed\75wpqbps45.gz
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\compressed\0bt8wuev4a.gz
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\compressed\5havg3fylb.gz
+C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\compressed\lp93r1yu8n.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\compressed\6jrfumhpxz.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\compressed\n2wfhbn5ou.gz
 C:\Users\jhoss\Documents\Portfolio\TechTest\ManufacturingInventoryManagementSystem\ManufacturingInventory\ManufacturingInventory.WebAssembly\obj\Debug\net8.0\compressed\fveyapdap7.gz

@@ -1,0 +1,39 @@
+﻿@page "/indice-productos"
+@inject HttpClient http
+
+<h3>Productos</h3>
+
+@if(products == null)
+{
+    <text>Cargando Datos!...</text>
+} else if (products.Length == 0)
+{
+    <text>No Hay Productos Para Mostrar</text>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre Del Producto</th>
+                <th>Tipo De Elaboración</th>
+                <th>Estado Del Producto</th>
+            </tr>
+        </thead>
+    </table>
+}
+
+@code {
+    Product[] products { get; set; }
+
+    /*protected override OnInitAs
+    {
+        await GetAllProducts();
+    }
+
+    async Task GetAllProducts()
+    {
+        products = await http.GetFromJsonAsync<Product[]>("product");
+    }*/
+}

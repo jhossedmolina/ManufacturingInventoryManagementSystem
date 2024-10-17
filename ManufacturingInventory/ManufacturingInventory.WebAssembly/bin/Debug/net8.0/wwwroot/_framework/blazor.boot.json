@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ManufacturingInventory.WebAssembly",
   "resources": {
-    "hash": "sha256-fGcxAjefdZs6RfWXPlffG7PtEiYk+vJjac9gD5wE3AY=",
+    "hash": "sha256-9u7FI+jhdBAjneIp0MU0I6+ZGcWiJQzd0THCjD2xMFs=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.8rhhg8nnr3.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -208,10 +208,14 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-      "ManufacturingInventory.WebAssembly.wasm": "sha256-wJjVuTvDOGd5q5ciVAHJ4leD3asyUcVWFATbgMXynic="
+      "ManufacturingInventory.Application.wasm": "sha256-77Y8WpI1dT3lqN9vUlRl61Qtq1BWCT+dJ4WLpsViVXU=",
+      "ManufacturingInventory.Domain.wasm": "sha256-mbuz6+T41bHvRlxLCl3RQTE99MVEuijEGdQzoNPD17Q=",
+      "ManufacturingInventory.WebAssembly.wasm": "sha256-b+YeltSuvQzxPDIOd519IVf50CLVYT0T1gZXH/b+abY="
     },
     "pdb": {
-      "ManufacturingInventory.WebAssembly.pdb": "sha256-edT8SVdB7puLAIWvArqbHP+YL0T89saxDbriQxWX9Pc="
+      "ManufacturingInventory.Application.pdb": "sha256-C1SpoUfvr5+FK+jidIW+EYSHnGkBTteVmsEjUHYswco=",
+      "ManufacturingInventory.Domain.pdb": "sha256-VoDDH7a8bItMmyyhXmJ7JhjO3Yy1pEXST0G07fKZa4M=",
+      "ManufacturingInventory.WebAssembly.pdb": "sha256-1YY1R4VaaBvF/cDZd7MjK1e3GI78+51LJ10OHjZBUIE="
     }
   },
   "cacheBootResources": true,

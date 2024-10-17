@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WLPa9uC4zdl7GemyRfyKojOnQkXTFtyvfBkSQu1c5Ik=",
+  "Source": "ManufacturingInventory.API",
+  "BasePath": "_content/ManufacturingInventory.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
