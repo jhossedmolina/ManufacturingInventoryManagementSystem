@@ -21,19 +21,19 @@ git clone https://github.com/jhossedmolina/ManufacturingInventoryManagementSyste
 A continuación se presentan los endpoints disponibles en la API:
 
 ### 1. Obtener Todos los Productos
-Endpoint: api/Product/GetAllProducts
-Descripción: Obtiene la lista de todos los productos existentes en la base de datos.
+- **Endpoint**: api/Product/GetAllProducts
+- **Descripción**: Obtiene la lista de todos los productos existentes en la base de datos.
 ### 2. Obtener Productos por Estado
-Endpoint: api/Product/GetProductsByStatus/{status}
-Descripción: Obtiene una lista de productos filtrados por su estado.
-Parámetros:
-status: Puede ser uno de los siguientes:
-En Stock
-Defectuoso
-Fuera De Stock
+- **Endpoint: api/Product/GetProductsByStatus/{status}
+- **Descripción: Obtiene una lista de productos filtrados por su estado.
+- **Parámetros:
+**status**: Puede ser uno de los siguientes:
+- En Stock
+- Defectuoso
+- Fuera De Stock
 ### 3. Obtener Producto por ID
-Endpoint: api/Product/GetProductById/{id}
-Descripción: Obtiene un producto específico por su ID.
+- **Endpoint**: api/Product/GetProductById/{id}
+**Descripción**: Obtiene un producto específico por su ID.
 ### 4. Agregar un Nuevo Producto
 Endpoint: api/Product/AddProduct
 Descripción: Agrega un nuevo producto a la base de datos.
