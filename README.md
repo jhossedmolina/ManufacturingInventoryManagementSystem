@@ -131,16 +131,16 @@ A continuación se presentan los endpoints disponibles en la API:
 **ProductionType**:
 
 
-- **Elaborado A Mano = 1**
-- **Elaborado A Mano Y Máquina = 2**
+- **1 = Elaborado A Mano**
+- **2 = Elaborado A Mano Y Máquina**
 
 
 **Status**:
 
 
-- **En Stock = 1**
-- **Defectuoso = 2**
-- **Fuera De Stock = 3**
+- **1 = En Stock**
+- **2 = Defectuoso**
+- **3 = Fuera De Stock**
 
 ### 5. Marcar Producto como Defectuoso
 
@@ -155,6 +155,24 @@ A continuación se presentan los endpoints disponibles en la API:
 
 
 **Descripción**: Recibe como parámetro el ID de un producto y actualiza su información (nombre del producto, tipo de elaboración, estado del producto).
+
+
+**Enumeraciones**:
+
+
+**ProductionType**:
+
+
+- **1 = Elaborado A Mano**
+- **2 = Elaborado A Mano Y Máquina**
+
+
+**Status**:
+
+
+- **1 = En Stock**
+- **2 = Defectuoso**
+- **3 = Fuera De Stock**
 
 ### 7. Eliminar Producto
 
