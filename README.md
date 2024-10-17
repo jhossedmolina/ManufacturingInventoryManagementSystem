@@ -23,6 +23,16 @@ Clean Architecture
 
 git clone https://github.com/jhossedmolina/ManufacturingInventoryManagementSystem.git
 
+## Creación Base De Datos SQL Server
+
+Paso 1: Crear Base De Datos
+
+
+CREATE DATABASE [ManufacturingInventoryDB]
+
+
+Paso 2: Usar los Scripts almacenados en la carpeta Scripts SQL
+
 ## Instalación del Proyecto Web API
 
 Paso 1: Clonar el repositorio
