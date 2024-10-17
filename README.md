@@ -42,6 +42,8 @@ A continuación se presentan los endpoints disponibles en la API:
 
 
 **status**: Puede ser uno de los siguientes:
+
+
 - **En Stock**
 - **Defectuoso**
 - **Fuera De Stock**
@@ -64,11 +66,15 @@ A continuación se presentan los endpoints disponibles en la API:
 
 
 **ProductionType**:
+
+
 -**Elaborado A Mano = 1**
 -**Elaborado A Mano Y Máquina = 2**
 
 
 **Status**:
+
+
 -**En Stock = 1**
 -**Defectuoso = 2**
 -**Fuera De Stock = 3**
