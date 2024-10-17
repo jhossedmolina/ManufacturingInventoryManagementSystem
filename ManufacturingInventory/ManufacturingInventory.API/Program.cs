@@ -5,6 +5,7 @@ using ManufacturingInventory.Application.Interfaces;
 using ManufacturingInventory.Application.Services;
 using ManufacturingInventory.Domain.Entities;
 using ManufacturingInventory.Infraestructure.DataAccess;
+using ManufacturingInventory.Infraestructure.Filters;
 using ManufacturingInventory.Infraestructure.Mappings;
 using ManufacturingInventory.Infraestructure.Repositories;
 using ManufacturingInventory.Infraestructure.Validators;
@@ -20,7 +21,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<GlobalExceptionFilter>();
+});
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(swagger =>
@@ -60,14 +64,6 @@ builder.Services.AddDbContext<ManufacturingInventoryDbContext>(cf =>
     cf.UseSqlServer(builder.Configuration.GetConnectionString("ManufacturingInventoryDB")));
 
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<IProductService, ProductService>();
-
-
-builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddScoped<IValidator<ApplicationUserDto>, ApplicationUserDtoValidator>();
-builder.Services.AddScoped<IValidator<LoginDto>, LoginDtoValidator>();
-
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -84,8 +80,17 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
     });
 
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddScoped<IValidator<ApplicationUserDto>, ApplicationUserDtoValidator>();
+builder.Services.AddScoped<IValidator<LoginDto>, LoginDtoValidator>();
+
 
 
 

@@ -9,7 +9,7 @@ namespace ManufacturingInventory.Infraestructure.DataAccess.Configurations
         public void Configure(EntityTypeBuilder<Product> builder)
         {
             builder.ToTable("Product");
-
+            
             builder.Property(e => e.Name)
                 .HasMaxLength(50)
                 .IsUnicode(false);

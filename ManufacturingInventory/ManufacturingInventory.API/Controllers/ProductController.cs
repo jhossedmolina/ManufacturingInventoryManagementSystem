@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using ManufacturingInventory.API.Responses;
 using ManufacturingInventory.Application.DTOs;
 using ManufacturingInventory.Application.Interfaces;
 using ManufacturingInventory.Application.Services;
@@ -26,7 +27,8 @@ namespace ManufacturingInventory.API.Controllers
         {
             var products = _productService.GetAllProducts();
             var productsDtoResponse = _mapper.Map<IEnumerable<ProductDtoResponse>>(products);
-            return Ok(productsDtoResponse);
+            var response = new ApiResponse<IEnumerable<ProductDtoResponse>>(productsDtoResponse);
+            return Ok(response);
         }
 
         [HttpGet("GetProductsByStatus/{status}")]
@@ -37,7 +39,8 @@ namespace ManufacturingInventory.API.Controllers
                 return NotFound();
 
             var productsDtoResponse = _mapper.Map<List<ProductDtoResponse>>(products);
-            return Ok(productsDtoResponse);
+            var response = new ApiResponse<List<ProductDtoResponse>>(productsDtoResponse);
+            return Ok(response);
         }
 
         [HttpGet("GetProductById/{id}")]
@@ -48,7 +51,8 @@ namespace ManufacturingInventory.API.Controllers
                 return NotFound();
 
             var productDtoResponse = _mapper.Map<ProductDtoResponse>(product);
-            return Ok(productDtoResponse);
+            var response = new ApiResponse<ProductDtoResponse>(productDtoResponse);
+            return Ok(response);
         }
 
 
@@ -59,43 +63,29 @@ namespace ManufacturingInventory.API.Controllers
             await _productService.AddProducts(product);
 
             var productDtoResponse = _mapper.Map<ProductDtoResponse>(product);
-            return CreatedAtAction(nameof(GetProductsById), new { id = productDtoResponse.Id }, productDtoResponse);
+            var response = new ApiResponse<ProductDtoResponse>(productDtoResponse);
+            return CreatedAtAction(nameof(GetProductsById), new { id = productDtoResponse.Id }, response);
         }
 
         [HttpPut("MarkProductAsDefective")]
         public async Task<IActionResult> MarkProductAsDefective(int id)
         {
-            var currentProduct = await _productService.GetProductById(id);
-            if (currentProduct is null) 
-                return NotFound();
-
             await _productService.MarkProductAsDefective(id);
-            var productDtoResponse = _mapper.Map<ProductDtoResponse>(currentProduct);
-
-            return Ok(productDtoResponse);
+            return NoContent();
         }
 
         [HttpPut("UpdateProduct")]
         public async Task<IActionResult> UpdateProduct(int id, ProductDto productDto)
         {
-            var currentProduct = await _productService.GetProductById(id);
-            if (currentProduct is null)
-                return NotFound();
-
             var product = _mapper.Map<Product>(productDto);
-            product.Id = currentProduct.Id;
+            product.Id = id;
             await _productService.UpdateProduct(product);
-            var productDtoResponse = _mapper.Map<ProductDtoResponse>(product);
-            return Ok(productDtoResponse);
+            return NoContent();
         }
 
         [HttpDelete("DeleteProduct/{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
-            var currentProduct = await _productService.GetProductById(id);
-            if (currentProduct is null)
-                return NotFound();
-
             var result = await _productService.DeleteProduct(id);
             return NoContent();
         }
