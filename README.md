@@ -3,9 +3,9 @@
 ## Descripción
 
 Una empresa de manufactura gestiona productos terminados en su bodega, preparándolos para distribución. Este proceso de inventario implica:
-• Entrada de mercancía.
-• Salida de mercancía.
-• Identificación de mercancía defectuosa.
+• **Entrada de mercancía.**
+• **Salida de mercancía.**
+• **Identificación de mercancía defectuosa.**
 
 ## Tecnologías Utilizadas
 
