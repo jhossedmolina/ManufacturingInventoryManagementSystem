@@ -50,8 +50,7 @@
               "RelativeToolTip": "ManufacturingInventory.API\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:43:08.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T08:43:08.485Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "ManufacturingInventory.Application\\Interfaces\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:08:32.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T08:08:32.013Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "ManufacturingInventory.Application\\Interfaces\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:08:31.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T08:08:31.254Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "ManufacturingInventory.Application\\Services\\ProductService.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAwwDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:08:26.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T08:08:26.48Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "ManufacturingInventory.Infraestructure\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAIwBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:08:23.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T08:08:23.52Z"
             }
           ]
         }
