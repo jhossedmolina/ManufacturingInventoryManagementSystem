@@ -1,8 +1,40 @@
 [
   {
     "ContainingType": "ManufacturingInventory.API.Controllers.ProductController",
+    "Method": "InsertProducts",
+    "RelativePath": "api/Product/AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDto",
+        "Type": "ManufacturingInventory.Application.DTOs.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManufacturingInventory.API.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/DeleteProduct/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManufacturingInventory.API.Controllers.ProductController",
     "Method": "GetAllProducts",
-    "RelativePath": "api/Product",
+    "RelativePath": "api/Product/GetAllProducts",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -11,8 +43,24 @@
   },
   {
     "ContainingType": "ManufacturingInventory.API.Controllers.ProductController",
+    "Method": "GetProductsById",
+    "RelativePath": "api/Product/GetProductById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManufacturingInventory.API.Controllers.ProductController",
     "Method": "GetProductsByStatus",
-    "RelativePath": "api/Product/{status}",
+    "RelativePath": "api/Product/GetProductsByStatus/{status}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -20,6 +68,43 @@
       {
         "Name": "status",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManufacturingInventory.API.Controllers.ProductController",
+    "Method": "MarkProductAsDefective",
+    "RelativePath": "api/Product/MarkProductAsDefective",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManufacturingInventory.API.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Product/UpdateProduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "productDto",
+        "Type": "ManufacturingInventory.Application.DTOs.ProductDto",
         "IsRequired": true
       }
     ],

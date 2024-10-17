@@ -1,0 +1,22 @@
+﻿@page "/register"
+@using ManufacturingInventory.Application.DTOs
+<h3>Registrarse</h3>
+
+@code {
+    string? Message = string.Empty;
+    ApplicationUserDto RegisterModel = new();
+    async Task RegisterUserAsync()
+    {
+        Message = null;
+        var applicationUser = new ApplicationUser();
+        applicationUser.Name = RegisterModel.Name;
+        applicationUser.Email = RegisterModel.Email;
+        applicationUser.Password = RegisterModel.Password;
+
+        var result = await AccountService.RegisterUserAsync(applicationUser);
+        if (!result.Flag)
+            NavManager.NavigateTo("login", forceLoad: true);
+        else
+            Message = result.Message;
+    }
+}

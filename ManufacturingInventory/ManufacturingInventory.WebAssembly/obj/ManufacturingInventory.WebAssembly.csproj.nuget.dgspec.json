@@ -188,6 +188,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -208,6 +216,10 @@
               "target": "Package",
               "version": "[8.0.10, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.1.2, )"
             }
           },
           "imports": [

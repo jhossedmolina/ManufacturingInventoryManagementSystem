@@ -1,0 +1,59 @@
+﻿@page "/"
+@layout LoginLayout
+@using ManufacturingInventory.Application.DTOs
+@using ManufacturingInventory.WebAssembly.States
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card p-4 shadow-lg" style="max-width: 400px; width: 100%;">
+        @if (!string.IsNullOrEmpty(Message))
+        {
+            <div class="alert alert-info">
+                @Message
+            </div>
+        }
+        <h2 class="text-center mb-4">INICIAR SESIÓN</h2>
+        <EditForm Model="LoginModel" OnValidSubmit="LoginAsync">
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+            <div class="mb-3">
+                <label for="username" class="form-label">Correo Electronico</label>
+                <InputText id="username" @bind-Value="LoginModel.Email" class="form-control" placeholder="Ingrese su correo electronico" />
+                <ValidationMessage For="@(() => LoginModel.Email)" class="text-danger" />
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <InputText id="password" @bind-Value="LoginModel.Password" type="password" class="form-control" placeholder="Ingrese su contraseña" />
+                <ValidationMessage For="@(() => LoginModel.Password)" class="text-danger" />
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+        </EditForm>
+
+        <div class="text-center mt-3">
+            <p>No Tiene Una Cuenta? <a href="/register">Registrese Aquí</a></p>
+        </div>
+    </div>
+</div>
+
+
+
+@code {
+    string? Message = string.Empty;
+    LoginDto LoginModel = new();
+    async Task LoginAsync()
+    {
+        Message = null;
+        var result = await AccountService.LoginUserAsync(LoginModel);
+        if (result.Flag)
+        {
+            var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+            await customAuthStateProvider.UpdateAuthenticationState(result.Token);
+            NavManager.NavigateTo("/Products", forceLoad: true);
+        }
+        else
+        {
+            Message = result.Message;
+        }
+    }
+}

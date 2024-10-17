@@ -1,0 +1,11 @@
+﻿@page "/logout"
+@using ManufacturingInventory.WebAssembly.States
+
+@code {
+    protected async override Task OnInitializedAsync()
+    {
+        var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+        await customAuthStateProvider.UpdateAuthenticationState(null!);
+        NavManager.NavigateTo("/", forceLoad: true);
+    }
+}

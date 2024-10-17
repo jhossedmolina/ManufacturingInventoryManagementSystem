@@ -11,7 +11,9 @@ using ManufacturingInventory.Infraestructure.Validators;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.Net.Http.Headers;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -94,6 +96,13 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseCors(policy =>
+    {
+        policy.WithOrigins("https://localhost:7074")
+        .AllowAnyMethod()
+        .AllowAnyHeader()
+        .WithHeaders(HeaderNames.ContentType);
+    });
 }
 
 app.UseHttpsRedirection();

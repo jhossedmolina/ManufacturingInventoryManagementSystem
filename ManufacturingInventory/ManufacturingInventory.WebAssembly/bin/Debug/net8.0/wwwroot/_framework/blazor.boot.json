@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ManufacturingInventory.WebAssembly",
   "resources": {
-    "hash": "sha256-9u7FI+jhdBAjneIp0MU0I6+ZGcWiJQzd0THCjD2xMFs=",
+    "hash": "sha256-uLdBVj6BfUtclGoLimgx9D35b7yywb48GQWYbCWAw3o=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.8rhhg8nnr3.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -17,8 +17,10 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
+      "Blazored.LocalStorage.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-qvUVaVXCx0vIwC1ftYywcGopJB8y43BbfcCt3G9PQgM=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-xr0Ov2b8dQS8xDDq0cDAHAiTk03Nhy7Nb/TaMeGY25U=",
+      "Microsoft.AspNetCore.Components.Authorization.wasm": "sha256-Baqx7hhBkIpYRwYfeaobznQftLbl1qf4Z43xmYAE45M=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-xdmm/nojXhCuTTDwhSWKmv9GQ/HGjW58Sxp2/m3FH8w=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-/zzHB7rnx0Gx4tbnqVwlEKZU2SvctKMEhndyH8nlgr4=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-6PDNWhWSc3nmVfcFJx8tpgDuK9uN5QvlKeQxO4E35pA=",
@@ -37,8 +39,13 @@
       "Microsoft.Extensions.Logging.Abstractions.wasm": "sha256-glWux6/5FFNJxVrbRPQ/PhLriEkSd3TllLfjmvZbpKw=",
       "Microsoft.Extensions.Options.wasm": "sha256-5/m+yVFGRuY+N4jQnD+QETKH0AfhAsnVze5dJ5ogIVM=",
       "Microsoft.Extensions.Primitives.wasm": "sha256-pVrYOTfjb2ITls3LKIByW1t8jwOAWFhmkIVDewtJ1GE=",
+      "Microsoft.IdentityModel.Abstractions.wasm": "sha256-wxtjnPzdoc2h3USp6idnpSptYYPVvf+tiBQqedfklWU=",
+      "Microsoft.IdentityModel.JsonWebTokens.wasm": "sha256-2fVtJGN7QDzqONBL1UvFXYnKrDrxjDjX7Egqzeya1+s=",
+      "Microsoft.IdentityModel.Logging.wasm": "sha256-tyvXYe/EaccFojHtfMc1pcrUg8PKQpQykXiqEBEbOFU=",
+      "Microsoft.IdentityModel.Tokens.wasm": "sha256-e7PkvbCDXT6jeE2nyvWquqCSbpeyFfjo2MACElFyEHA=",
       "Microsoft.JSInterop.wasm": "sha256-t9q43mL+SUSnDmA3kXTLQ42nvlXwYmnKxyqFFPYcifs=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-AQCuGvuEaOGJIRllBm0t1I9jKw+kNMrILxGeDDgzgzY=",
+      "System.IdentityModel.Tokens.Jwt.wasm": "sha256-QF/iZ6zkGK5Wq2VEypJMpjm1OaBSNwGYouD+mLYfVYs=",
       "System.IO.Pipelines.wasm": "sha256-JqVBy6SV+3qk+IK3VJiyIDt9CsVk6b1/ytTXmrI4mTM=",
       "Microsoft.CSharp.wasm": "sha256-bqu74vg/La1Ub2pVw0G0r6S6XMaAgbrpFYRK6yHXlo4=",
       "Microsoft.VisualBasic.Core.wasm": "sha256-tv/7FnHANUZX7lUT4coWbRvG2fJUgCrJiCcOYFEuNXY=",
@@ -208,14 +215,14 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-      "ManufacturingInventory.Application.wasm": "sha256-77Y8WpI1dT3lqN9vUlRl61Qtq1BWCT+dJ4WLpsViVXU=",
-      "ManufacturingInventory.Domain.wasm": "sha256-mbuz6+T41bHvRlxLCl3RQTE99MVEuijEGdQzoNPD17Q=",
-      "ManufacturingInventory.WebAssembly.wasm": "sha256-b+YeltSuvQzxPDIOd519IVf50CLVYT0T1gZXH/b+abY="
+      "ManufacturingInventory.Application.wasm": "sha256-uoCXR9d3ZuCNfRDMXqI/MaKxWm9XTsw3MzEu6+apvY0=",
+      "ManufacturingInventory.Domain.wasm": "sha256-nV5D5W7QBAs4SQtm9XPu9Oq070WavXu7MjOgnYX8bQU=",
+      "ManufacturingInventory.WebAssembly.wasm": "sha256-PzSoaOoBFY4jMBqIe59PWqBn1y+5txG/q4E3wCqyAXI="
     },
     "pdb": {
-      "ManufacturingInventory.Application.pdb": "sha256-C1SpoUfvr5+FK+jidIW+EYSHnGkBTteVmsEjUHYswco=",
-      "ManufacturingInventory.Domain.pdb": "sha256-VoDDH7a8bItMmyyhXmJ7JhjO3Yy1pEXST0G07fKZa4M=",
-      "ManufacturingInventory.WebAssembly.pdb": "sha256-1YY1R4VaaBvF/cDZd7MjK1e3GI78+51LJ10OHjZBUIE="
+      "ManufacturingInventory.Application.pdb": "sha256-1vos709l4MDwuQtIOJWJAuGIIIOBt6FIdsfxmzM1FNs=",
+      "ManufacturingInventory.Domain.pdb": "sha256-ANlkhqFL/jsQ+h+lAe8+tL0l6zh7rBk8aACEB761RpU=",
+      "ManufacturingInventory.WebAssembly.pdb": "sha256-f/FgdC/qkhf5n7YECvzGUUyl4uF6P3vC5OJKQtqjUUk="
     }
   },
   "cacheBootResources": true,

@@ -23,7 +23,7 @@ namespace ManufacturingInventory.Infraestructure.Repositories
             return _context.Products.Where(p => p.Status == status).ToList();
         }
 
-        private async Task<Product> GetProductById(int id)
+        public async Task<Product> GetProductById(int id)
         {
             return await _context.Products.FindAsync(id);
         }
@@ -34,9 +34,19 @@ namespace ManufacturingInventory.Infraestructure.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task<bool> UpdateProductStatus(Product product)
+        public async Task<bool> MarkProductAsDefective(int id)
+        {
+            var currentProduct = await GetProductById(id);
+            currentProduct.Status = "Defectuoso";
+            var rows = await _context.SaveChangesAsync();
+            return rows > 0;
+        }
+
+        public async Task<bool> UpdateProduct(Product product)
         {
             var currentProduct = await GetProductById(product.Id);
+            currentProduct.Name = product.Name;
+            currentProduct.ProductionType = product.ProductionType;
             currentProduct.Status = product.Status;
             var rows = await _context.SaveChangesAsync();
             return rows > 0;

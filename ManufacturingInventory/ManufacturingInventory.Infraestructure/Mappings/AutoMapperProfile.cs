@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ManufacturingInventory.Application.DTOs;
+using ManufacturingInventory.Application.Enums;
 using ManufacturingInventory.Domain.Entities;
 
 namespace ManufacturingInventory.Infraestructure.Mappings
@@ -8,11 +9,13 @@ namespace ManufacturingInventory.Infraestructure.Mappings
     {
         public AutoMapperProfile()
         {
-            CreateMap<Product, ProductDto>();
-            CreateMap<ProductDto, Product>();
+            CreateMap<Product, ProductDtoResponse>().ReverseMap();
 
-            CreateMap<ApplicationUser, ApplicationUserDto>();
-            CreateMap<ApplicationUserDto, ApplicationUser>();
+            CreateMap<ProductDto, Product>()
+                .ForMember(dest => dest.ProductionType, opt => opt.MapFrom(src => Enum.Parse<ProductionType>(src.ProductionType.ToString())))
+                .ForMember(dest => dest.Status, opt => opt.MapFrom(src => Enum.Parse<ProductStatus>(src.Status.ToString())));
+
+            CreateMap<ApplicationUser, ApplicationUserDto>().ReverseMap();
         }
     }
 }

@@ -1,13 +1,13 @@
-﻿namespace ManufacturingInventory.Application.DTOs
+﻿using ManufacturingInventory.Application.Enums;
+
+namespace ManufacturingInventory.Application.DTOs
 {
     public class ProductDto
     {
-        public int Id { get; set; }
-
         public string Name { get; set; } = null!;
 
-        public string ProductionType { get; set; } = null!;
+        public ProductionType ProductionType { get; set; }
 
-        public string? Status { get; set; }
+        public ProductStatus Status { get; set; }
     }
 }

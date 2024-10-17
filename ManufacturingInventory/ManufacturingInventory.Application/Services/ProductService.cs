@@ -22,19 +22,33 @@ namespace ManufacturingInventory.Application.Services
             return _productRepository.GetProductsByStatus(status);
         }
 
+        public async Task<Product> GetProductById(int id)
+        {
+            return await _productRepository.GetProductById(id);
+        }
+
         public async Task AddProducts(Product product)
         {
+            product.ProductionType = product.ProductionType.Replace('_', ' ');
+            product.Status = product.Status!.Replace('_', ' ');
             await _productRepository.AddProducts(product);
         }
 
-        public Task<bool> UpdateProductStatus(Product product)
+        public async Task<bool> MarkProductAsDefective(int id)
         {
-            return _productRepository.UpdateProductStatus(product);
+            return await _productRepository.MarkProductAsDefective(id);
         }
 
-        public Task<bool> DeleteProduct(int id)
+        public async Task<bool> UpdateProduct(Product product)
         {
-            return _productRepository.DeleteProduct(id);
+            product.ProductionType = product.ProductionType.Replace('_', ' ');
+            product.Status = product.Status!.Replace('_', ' ');
+            return await _productRepository.UpdateProduct(product);
+        }
+
+        public async Task<bool> DeleteProduct(int id)
+        {
+            return await _productRepository.DeleteProduct(id);
         }
     }
 }

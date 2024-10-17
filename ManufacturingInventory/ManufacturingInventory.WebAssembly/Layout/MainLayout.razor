@@ -1,4 +1,5 @@
-﻿@inherits LayoutComponentBase
+﻿@using System.Security.Claims
+@inherits LayoutComponentBase
 <div class="page">
     <div class="sidebar">
         <NavMenu />
@@ -6,7 +7,17 @@
 
     <main>
         <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+            <AuthorizeView>
+                <Authorized>
+                    <span class="text-muted m-2 p-2">
+                        @context.User.Identity!.Name 
+                        [@context.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)!.Value]</span>
+                    <a href="logout" target="_blank">Cerrar Sesión</a>
+                </Authorized>
+                <NotAuthorized>
+                    <a href="register" target="_blank">Registrarse</a>
+                </NotAuthorized>
+            </AuthorizeView>
         </div>
 
         <article class="content px-4">
